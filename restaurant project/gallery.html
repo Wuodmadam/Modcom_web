@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+       .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        
+       } 
+       .pik{
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+       }
+       .parent > div {
+        flex-basis: 30%;
+       }
+       a{
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-secondary p-4 text-white text-center">
+        <h1>Gallery</h1>
+       </header> 
+       <div class="bg-light p-2 m-3">
+       <a href="restaurant.html">Restaurant</a>
+       <a href="index.html">Home</a>
+       <a href="menu.html">Menu</a>
+       <a href="gallery.html">Gallery</a>
+       <a href="about us.html">About Us</a>
+       <a href="contact_us.html">Contact</a>
+    </div>
+    <div class=" text-center fw-medium text-secondary">
+        <h1>
+            Our Food Gallery
+        </h1>
+        <p>A look into the dishes we serve</p>
+        <br>
+        <br>
+    </div>
+    <div class="parent">
+        <div><img src="gal1.jpg" class="pik"></div>
+        <div><img src="gal2.jpg" class="pik"></div>
+        <div><img src="gal3.jpg" class="pik"></div>
+    </div>
+    <br>
+    <div class="parent">
+        <div><img src="gal4.jpg" class="pik"></div>
+        <div><img src="gal5.jpg" class="pik"></div>
+        <div><img src="gal6.jpg" class="pik"></div>
+    </div>
+    <br>
+    <br>
+    <footer class="bg-dark p-4 text-white"><p class="text-center">© 2024 Restaurant. All rights reserved.</p></footer>
+</body>
+</html>
